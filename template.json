@@ -1,0 +1,19 @@
+{
+    "Car": {
+        "data": [
+            { "name": "Cobra", "color": "red" },
+            { "name": "Cobra", "color": "red" }
+        ],
+        "verb": [
+            "get",
+            "post"
+        ]
+    },
+    "Pilot": {
+        "data": [
+            { "name": "Carlos", "car": "AMG" },
+            { "name": "Juan", "car": "GTR" }
+        ],
+        "dataUrl": ["./db.json"]
+    }
+}
