@@ -1,19 +1,24 @@
 {
     "Car": {
         "data": [
-            { "name": "Cobra", "color": "red" },
-            { "name": "Cobra", "color": "red" }
+            { "id": 1, "name": "Cobra", "color": "red" },
+            { "id": 2, "name": "Porsche", "color": "silver" }
         ],
         "verb": [
             "get",
-            "post"
+            "post",
+            "delete"
         ]
     },
     "Pilot": {
-        "data": [
-            { "name": "Carlos", "car": "AMG" },
-            { "name": "Juan", "car": "GTR" }
-        ],
-        "dataUrl": ["./db.json"]
+        "dataUrl": "pilot.json",
+        "verb": [
+            "get",
+            "post",
+            "delete"
+        ]
+    },
+    "UserDomain": {
+        "data": { "valueField": "m"}
     }
 }
